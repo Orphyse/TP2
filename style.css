@@ -6,17 +6,21 @@
 
 #header
 {
-	background: #ccc;
+	background: #FF456A;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 
+{
+margin: 0; 
+color: #EFFBFF;
+}
 
 #navigation
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #150;
 }
 
 #navigation ul
@@ -31,17 +35,17 @@
 	display: inline;
 }
 
-#navigation li a
+#navigationFF456A li a
 {
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #333;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #500; }
 
 #edito
 {
@@ -88,8 +92,9 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #FF456A;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	color: EFFBFF;
 }
